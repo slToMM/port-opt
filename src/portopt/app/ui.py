@@ -7,8 +7,11 @@ from datetime import date, timedelta
 import io
 
 # ensure src is importable if PYTHONPATH is not set by the shell
-import os, sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "..", "..")))
+import sys
+from pathlib import Path
+SRC = Path(__file__).resolve().parents[2]  # .../src
+if str(SRC) not in sys.path:
+    sys.path.insert(0, str(SRC))
 
 from portopt.core.data import fetch_prices, align_and_clean
 from portopt.core.stats import annualize_mean_cov, shrink_cov_to_diag, portfolio_metrics, equity_curve, drawdown_series
