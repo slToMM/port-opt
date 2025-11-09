@@ -1,6 +1,6 @@
-# Portfolio Optimizer
+# Portfolio Optimization App
 
-Modern portfolio optimization and backtesting built with Python, CVXPY, and Streamlit.
+An interactive web application for quantitative portfolio analysis and optimization, implementing modern mean–variance optimization and backtesting workflows using Streamlit, Plotly, and CVXPY.
 
 **Live App:** [https://adityachauhanx07-port-opt.streamlit.app](https://adityachauhanx07-port-opt.streamlit.app)
 
