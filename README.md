@@ -1,6 +1,9 @@
-# Portfolio Optimization App
-An interactive web application for quantitative portfolio analysis and optimization, implementing modern mean–variance optimization and backtesting workflows using Streamlit, Plotly, and CVXPY.
+# Portfolio Optimizer
+
+Modern portfolio optimization and backtesting built with Python, CVXPY, and Streamlit.
+
 **Live App:** [https://adityachauhanx07-port-opt.streamlit.app](https://adityachauhanx07-port-opt.streamlit.app)
+
 ---
 ## Overview
 This application provides an end-to-end framework for constructing and evaluating optimized portfolios. Users can fetch historical data from Yahoo Finance, estimate expected returns and covariances, visualize the efficient frontier, and backtest the resulting strategy against benchmarks. The interface enables dynamic experimentation with assets, bounds, and parameters through an intuitive Streamlit dashboard.
