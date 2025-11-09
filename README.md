@@ -6,8 +6,11 @@ Modern portfolio optimization and backtesting built with Python, CVXPY, and Stre
 
 ---
 ## Overview
+
 This application provides an end-to-end framework for constructing and evaluating optimized portfolios. Users can fetch historical data from Yahoo Finance, estimate expected returns and covariances, visualize the efficient frontier, and backtest the resulting strategy against benchmarks. The interface enables dynamic experimentation with assets, bounds, and parameters through an intuitive Streamlit dashboard.
+
 ---
+
 ## Core Features
 - **Data Pipeline:** Automated price retrieval via `yfinance`, with preprocessing, alignment, and cleaning.  
 - **Return Models:** Support for log and simple returns, with adjustable lookback frequency.  
@@ -15,7 +18,9 @@ This application provides an end-to-end framework for constructing and evaluatin
 - **Visualization:** Interactive efficient frontier, maximum Sharpe portfolio highlight, and performance metrics rendered with Plotly.  
 - **Backtesting:** Static portfolio backtest with cumulative equity curve, drawdown visualization, and benchmark comparison.  
 - **Export:** Downloadable CSV outputs for portfolio weights, metrics, and frontier data.
+
 ---
+
 ## Technology Stack
 | Layer | Components |
 |--------|-------------|
@@ -23,6 +28,7 @@ This application provides an end-to-end framework for constructing and evaluatin
 | **Backend** | NumPy, CVXPY, Yahoo Finance API |
 | **Testing & CI** | Pytest, GitHub Actions |
 | **Deployment** | Streamlit Cloud |
+
 ---
 ## Directory Structure
 ```
