@@ -10,3 +10,4 @@ ecos>=2.0
 scs>=3.2
 plotly>=5.22
 streamlit>=1.39
+scikit-learn==1.5.2
